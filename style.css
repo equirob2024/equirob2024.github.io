@@ -220,8 +220,8 @@ tr {
 
 .icon {
     display: inline-block;
-    background: #e0a458;
-    color: #2d3047;
+    background: #95e6ff;
+    color: #004f76;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -230,7 +230,7 @@ tr {
 }
 
 .icon:hover {
-    background: #c08497;
+    background: #19aedb;
     color: #004f76;
 }
 
