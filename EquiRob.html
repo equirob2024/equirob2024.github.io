@@ -18,27 +18,29 @@
   <link rel="stylesheet" type="text/css" href="style.css?cache=77333914184988801948">
   <link rel="icon" type="image/png" href="figures/favicon.png" />
 
-  <title>Equivariant Robotics IROS 2024</title>
+  <title>Equivariant Robotics | IROS 2024</title>
 </head>
 
 <body>
+  <div id="home_datum"></div>
   <div id="navbar-top">
     <nav class="navbar navbar-light px-3">
-      <p class="nav navbar-brand" style="color:#004f76;"><a href="https://iros2024-abudhabi.org/"><b>IROS
-            2024</b></a>&nbsp;workshop EquiRob </p>
+      <p class="nav navbar-brand" style="color:#244855;">
+        Equivariant Robotics: &nbsp;<a href="https://iros2024-abudhabi.org/"><b>IROS
+            2024</b></a> &nbsp;Workshop</p>
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link" href="EquiRob.html#home">Home</a>
+          <a class="nav-link" href="EquiRob.html#home_datum">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="EquiRob.html#speakers">Speakers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="EquiRob.html/#call_for_papers">
-            Call for papers</a>
+          <a class="nav-link" href="EquiRob.html#schedule">Schedule</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="EquiRob.html#schedule">Schedule</a>
+          <a class="nav-link" href="EquiRob.html#call_for_papers">
+            Call for Papers</a>
         </li>
         <!-- <li class="nav-item">
               <a class="nav-link" href="EquiRob.html#papers">Accepted Papers</a>
@@ -53,44 +55,74 @@
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
     <div class="jumbotron" id="home">
       <div class="title">
-        <h2>Equivariant Robotics: The Role of Symmetry Across Perception, Estimation, and Control</h2>
-        <h5><a href="https://iros2024-abudhabi.org/"><b>IROS 2024</b></a>&nbsp;workshop, Abu Dhabi</h5>
-        <h5>October 14 2024, 08:30-12:30</h5>
+        <h2>Equivariant Robotics: The Role of Symmetry <br> Across Perception, Estimation, and Control</h2>
+        <h4>Workshop at <a href="https://iros2024-abudhabi.org/"><b>IROS 2024</b></a></h4>
+        <h5>Abu Dhabi, United Arab Emirates</h5>
+        <h5>October 14 or 15, 2024 (TBD)</h5>
       </div>
 
       <div class="content">
         <div class="row">
           <div class="col">
-            <!-- <img src="graphics/teaser.png" width="100%"> -->
+            <img src="graphics/teaser.png" width="100%"> TODO: add actual  graphics!
           </div>
 
           <div class="content">
             <div class="row">
               <div class="col">
-                <p>
-                  Towards the end of robotic systems capable of ubiquitous, persistent deployment in the wild, a growing
-                  trend has emerged across the many subdisciplines of our field. Namely, researchers in diverse areas
-                  have exploited the inherent symmetries present in robotic systems and their environment to achieve
-                  drastic improvements in performance, efficiency, and robustness. Equivariant architectures for
-                  data-driven perception have demonstrated impressive generalization and sample efficiency, all the
-                  while reducing model complexity and guaranteeing by design that extraneous transformations will not
-                  degrade their predictions. Meanwhile, a symmetry-aware approach to state estimation has yielded
-                  improved convergence properties, providing both formal certificates and astonishing empirical
-                  accuracy. Moreover, as the complexity of both individual agents and multiagent teams has grown, the
-                  exploitation of symmetry in control has tamed unwieldy high-dimensional models, sated the appetite for
-                  data-hungry methods like reinforcement learning, and aided in the decentralized coordination of large
-                  robot swarms. This workshop brings together prominent experts and early-career researchers, working
-                  across a wide range of problems, applications, and methodologies in robotics, to share their
-                  perspectives on the multifaceted role of equivariance in autonomous systems. Ultimately, this
-                  cross-pollination of traditionally distinct research communities will identify new avenues of
-                  investigation to leverage these cross-cutting concepts, in pursuit of intelligent robotic systems
-                  prepared to tackle society's greatest challenges and play an active role in our daily lives.
-                </p>
-                <p>
-                  <strong>Goals and Overview</strong>
-                  The goal of this workshop is to bring together a technically diverse cohort of researchers working on
-                  a wide range of urgent problems in robotics to examine the role of symmetry in the development of
-                  efficient, robust, and high-performance solutions to many challenges faced in robotics.
+                  <!-- <strong>Premise.</strong> -->
+                  <strong>Background.</strong> Towards the end of robotic systems capable of ubiquitous, persistent deployment in the wild, 
+                  researchers across diverse subdisciplines of our field            
+                        have exploited the inherent symmetries present in robotic systems and their environment to achieve
+                  drastic improvements in performance, efficiency, and robustness. For example:
+                  <ul>
+                    <li>
+                      Equivariant architectures for data-driven perception have demonstrated impressive generalization and sample efficiency, all the
+                      while reducing model complexity and guaranteeing by design that extraneous transformations will not
+                      degrade their predictions.
+                    </li>
+                    <li>
+                      A symmetry-aware approach to the filter design has yielded
+                  improved convergence properties in state estimation, providing both formal certificates and astonishing empirical
+                  accuracy in field deployments. 
+                    </li>
+                    <li>
+                      As the complexity of both individual agents and multiagent teams has grown, the
+                      exploitation of symmetry in control has tamed unwieldy high-dimensional models, sated the appetite of
+                      data-hungry methods like reinforcement learning, and aided in the decentralized coordination of large
+                      robot swarms. 
+                    </li>
+                  </ul>
+                  
+
+                  <strong>Workshop Goals and Overview.</strong>
+                  Informed by this promising and recurring trend,   
+                  this workshop brings together a technically diverse cohort of experts and early-career researchers  working
+                  across a wide range of problems, applications, and methodologies to share their
+                  perspectives on the multifaceted role of equivariance in autonomous systems. 
+                  This
+                  cross-pollination of traditionally distinct research communities will:
+                  <ul>
+                    <li>
+                      introduce new members of the broader robotics community to symmetry-informed methods,
+                    </li>
+                    <li>
+                      identify new opportunities to leverage these cross-cutting concepts and apply geometric expertise in new areas,
+                    </li>
+                    <li>
+                      align with the IROS 2024 theme <strong>"Robotics for Sustainable Development"</strong> by reducing the environmental
+                       impact of autonomous systems via reduced model complexity, more efficient algorithms, and greater reliability, and
+                    </li>
+                    <li>
+                      ultimately  bring us closer to the availability of ubiquitous, intelligent robotic systems
+                      prepared to tackle society's greatest challenges and play an active role in our daily lives.    
+                    </li>
+                  </ul>
+
+                  Please join us at IROS 2024 to explore these exciting developments! 
+                  
+                <!-- <p>
+                  <strong>Robotics for Sustainable Development.</strong>
 
                   As researchers share their long-term progress, latest results, and future goals at the workshop, we
                   expect others to learn new techniques from other disciplines that can be applied to their own domain
@@ -117,99 +149,103 @@
                   deployments. This minimizes materials use and production impacts of sustained deployment of large
                   robot teams in the wild, and also nets capable autonomous systems, better prepared to take part in a
                   thriving green economy and overcome environmental stewardship challenges.
-                </p>
+                </p> -->
               </div>
             </div>
           </div>
         </div>
 
 
+        
         <!-- Speakers section -->
 
         <div class="section" id="speakers">
           <div class="title">
-            <span>Speakers</span>
+            <span>Keynote Speakers</span>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/speakers/Maani Ghaffari.jpg" alt="Maani Ghaffari">
-                  <ul class="social">
+          <div class="content">
+            <div class="row justify-content-center">
+              <div class="col-xs-4 col-md-4">
+                <div class="thumbnail">
+                  <div>
+                    <!-- <ul class="social"> -->
+                      <a href="https://curly.engin.umich.edu/">
+                        <img src="graphics/speakers/Maani Ghaffari.jpg" alt="Maani Ghaffari">
+                        <!-- <li class="icon"><i class="fa fa-home"></i></li> -->
+                      </a>
+                    <!-- </ul> -->
+                  </div>
+                  <div class="caption">
                     <a href="https://curly.engin.umich.edu/">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  Maani Ghaffari<br>
-                  <span>University of Michigan</span>
+                      Maani Ghaffari                    </a>
+<br>
+                    <span>University of Michigan</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/speakers/Elise van der Pol.jpeg" alt="Elise van der Pol">
-                  <ul class="social">
+              <div class="col-xs-4 col-md-4">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://www.elisevanderpol.nl/">
+                        <img src="graphics/speakers/elise_van_der_pol.jpg" alt="Elise van der Pol">
+                      </a>
+                  </div>
+                  <div class="caption">
                     <a href="https://www.elisevanderpol.nl/">
-                      <li class="icon"><i class="fa fa-home"></i></li>
+                      Elise van der Pol
                     </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  Elise van der Pol<br>
-                  <span>Microsoft Research Amsterdam</span>
+                  <br>
+                    <span>Microsoft Research Amsterdam</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/speakers/Robert Mahony.jpg" alt="Robert Mahony">
-                  <ul class="social">
+              <div class="col-xs-4 col-md-4">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://eng.anu.edu.au/people/robert-mahony/">
+                        <img src="graphics/speakers/2018_Mahony.jpeg" alt="Robert Mahony">
+                      </a>
+                  </div>
+                  <div class="caption">
                     <a href="https://eng.anu.edu.au/people/robert-mahony/">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  Robert Mahony<br>
-                  <span>Australian National University</span>
+                      Robert Mahony
+                    </a><br>
+                    <span>Australian National University</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/speakers/Amanda Prorok.jpg" alt="Amanda Prorok">
-                  <ul class="social">
-                    <a href="https://www.cst.cam.ac.uk/people/asp45">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  Amanda Prorok<br>
-                  <span>University of Cambridge</span>
+            <div class="row justify-content-center">
+              <div class="col-xs-4 col-md-4">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://proroklab.org/">
+                        <img src="graphics/speakers/Amanda Prorok.jpg" alt="Amanda Prorok">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://proroklab.org/">
+                      Amanda Prorok
+                                        </a>
+                  <br>
+                    <span>University of Cambridge</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/speakers/Robin Walters.jpg" alt="Robin Walters">
-                  <ul class="social">
+              <div class="col-xs-4 col-md-4">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://www.robinwalters.com/">
+                        <img src="graphics/speakers/Robin Walters.jpg" alt="Robin Walters">
+                      </a>
+                  </div>
+                  <div class="caption">
                     <a href="https://www.robinwalters.com/">
-                      <li class="icon"><i class="fa fa-home"></i></li>
+                      Robin Walters
                     </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  Robin Walters<br>
-                  <span>Northeastern University</span>
+                    <br>
+                    <span>Northeastern University</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -235,59 +271,59 @@
                   <td><strong>Session 1: Equivariance Theory and Network Design</strong></td>
                   <td><strong>08:30-11:45</strong></td>
                 </tr> -->
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#ccc">
                       <td><strong>Opening Remarks</strong></td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#90AEAD">
                       <td>
-                        <strong>Keynote Speaker: Maani Ghaffari</strong>
-                        <div style="font-size:11pt">Computational Symmetry for Efficient Generalizable Algorithms in
+                        Keynote:  <strong>Maani Ghaffari</strong>
+                        <div style="font-size:11pt;font-style: italic;">Computational Symmetry for Efficient Generalizable Algorithms in
                           Robotics</div>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#90AEAD">
                       <td>
-                        <strong>Keynote Speaker: Elise van der Pol</strong>
-                        <div style="font-size:11pt">Symmetry in Decision Making: State of the Art, Challenges, and
+                        Keynote: <strong>Elise van der Pol</strong>
+                        <div style="font-size:11pt;font-style: italic;">Symmetry in Decision Making: State of the Art, Challenges, and
                           Future
                           Directions</div>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#90AEAD">
                       <td>
-                        <strong>Keynote Speaker: Robert Mahony</strong>
-                        <div style="font-size:11pt">Galilean Space-Time in Robotics</div>
+                        Keynote: <strong>Robert Mahony</strong>
+                        <div style="font-size:11pt; font-style: italic;">Galilean Space-Time in Robotics</div>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#244855; color: #eee">
                       <td>
-                        <strong>Coffee + Poster Session</strong>
+                        <strong>Poster Session + Coffee</strong>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#90AEAD">
                       <td>
-                        <strong>Keynote Speaker: Amanda Prorok</strong>
-                        <div style="font-size:11pt">TBD</div>
+                        Keynote: <strong>Amanda Prorok</strong>
+                        <div style="font-size:11pt; font-style: italic;">TBD</div>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#90AEAD">
                       <td>
-                        <strong>Keynote Speaker: Robin Walters</strong>
-                        <div style="font-size:11pt">Equivariant Neural Networks for Robotic Manipulation</div>
+                        Keynote: <strong>Robin Walters</strong>
+                        <div style="font-size:11pt; font-style: italic;">Equivariant Neural Networks for Robotic Manipulation</div>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
-                    <tr style="background:#95e6ff">
+                    <tr style="background:#ccc">
                       <td>
                         <strong>Award Session + Closing Remarks</strong>
                       </td>
-                      <td>??:??-??:??</td>
+                      <td>??:?? - ??:??</td>
                     </tr>
                   </table>
                 </div>
@@ -296,150 +332,238 @@
           </div>
         </div>
 
+                <!-- Call for Papers section -->
+
+                <div class="section" id="call_for_papers">
+                  <div class="title">
+                    <span>Call for Papers</span>
+                  </div>
+                  <div class="content">
+                    We invite contributions exploring <strong>the role of symmetry across diverse problems in robotics and autonomy</strong>, including:
+                  <ul>
+                    <li>Geometric mechanics and symmetry in locomotion planning and control</li>
+                    <li>Conservation laws and motion planning for nonholonomic vehicles</li>
+                    <li>Formal certificates or experimental verification of equivariant filters</li>
+                    <li>Approximately equivariant architectures for working with broken symmetry</li>
+                    <li>Feedback linearization and differential flatness in the presence of symmetry</li>
+                    <li>Model order reduction via symmetry</li>
+                    <li>Equivariant neural representations</li>
+                    <li>Symmetry as a prior in physics-informed machine learning</li>
+                    <li>Discrete symmetries in biological and robotic systems</li>
+                    <li>Equivariant deep learning</li>
+                    <li>Symmetries in geometric perception (3D reconstruction, registration, 3D object detection)</li>
+                    <li>Symmetries with proprioceptive sensors (IMU integration etc.)</li>
+                    <li>Symmetry-informed optimizers</li>
+                    <li>Sample complexity and robustness benefits in equivariant machine learning</li>
+                    <li>Symmetries in multiagent systems (flocking, tracking, coordination)</li>
+                    <li>Graph neural networks for decentralized multiagent autonomy</li>                    <!-- <li>Symmetry in locomotion planning and control</li>
+                    <li>Geometric mechanics in robotic systems</li>
+                    <li>Motion planning for nonholonomic vehicles</li>
+                    <li>Conservation laws applied to robotic systems</li>
+                    <li>Formal certificates or experimental verification of equivariant filters</li>
+                    <li>Symmetry exploitation for sample-efficient reinforcement learning</li>
+                    <li>Approximately equivariant architectures for working with broken symmetry</li>
+                    <li>Feedback linearization and differential flatness in the presence of symmetry</li>
+                    <li>Model order reduction via symmetry</li>
+                    <li>Applied Koopman operator modeling</li>
+                    <li>Equivariant neural representations</li>
+                    <li>Symmetry as a prior in physics-informed machine learning</li>
+                    <li>Discrete symmetries in biological and robotic systems</li>
+                    <li>Equivariant deep learning</li>
+                    <li>Symmetries in geometric perception (3D reconstruction, registration, 3D object detection)</li>
+                    <li>Symmetries with proprioceptive sensors (IMU integration etc.)</li>
+                    <li>Symmetry-informed optimizers</li>
+                    <li>Robustness via symmetry exploitation</li>
+                    <li>Sample complexity benefits in equivariant machine learning</li>
+                    <li>Symmetries in multiagent systems (flocking, tracking, coordination)</li>
+                    <li>Graph neural networks for decentralized multiagent autonomy</li> -->
+                  </ul>
+
+                    <h4 class="subtitle">Author Guidelines</h4>
+
+                    <ul>
+                      <li>
+                        Contribution should be submitted in the form of short papers / extended abstracts of <strong>2-4 pages</strong> in 2-column IEEE conference format (including all figures and appendices but excluding references). 
+                      </li>
+                      <li>
+                        Accepted abstracts will be available on the workshop website, and presented in <strong>poster</strong> format during the workshop. 
+                      </li>
+                      <li>
+                        Contributions will be reviewed for basic quality and relevance to the workshop. Our workshop is <strong>non-archival</strong> (contribution should not prohibit submission to other venues) and <strong>preliminary</strong> or <strong>late-breaking</strong> results are welcome. 
+                      </li>
+                      <li><strong>Extended abstracts should be submitted via EasyChair:</strong> <a href="https://easychair.org/conferences/?conf=symrob2024">https://easychair.org/conferences/?conf=symrob2024</a></li>
+                    </ul>
+                    <h4 class="subtitle">Important Dates</h4>
+                    <div>                    All deadlines are AoE (<a href="https://time.is/Anywhere_on_Earth">Anywhere on Earth</a>).
+                      <ul>
+        <li><strong>Paper Submission:</strong> August 16, 2024</li>
+        <li><strong>Notification of Acceptance:</strong> August 30, 2024</li>
+        <li><strong>Workshop:</strong> October 14 or 15, 2024 (TBD)</li>
+                    </ul>
+                    </div>
+                    
+                    <h4 class="subtitle">Best Poster Award</h4>
+                      <div>
+                        To encourage contributions, we will present a <strong>Best Poster Award</strong> to one of the contributions (to be judged by invited speakers and perhaps other senior researchers), with a <strong>monetary prize</strong> supported by the IEEE RAS TC's on "Algorithms for Planning and Control of Robot Motion" and "Computer & Robot Vision".
+                      </div>
+        
+                  </div>
+                </div>
 
 
-        <!-- Organisers Section -->
+        <!-- organizers Section -->
 
-        <div class="section" id="organisers">
+        <div class="section" id="organizers">
           <div class="title">
-            <span>Organisers</span>
+            <span>Organizers</span>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
+          <div class="content">
+            <div class="row justify-content-center">
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://jakewelde.com/">
+                        <img src="graphics/organizers/jake_welde.jpg" alt="Jake Welde">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://jakewelde.com/">
+                      Jake Welde
                     </a>
-                  </ul>
+                    <br>
+                    <span>University of Pennsylvania</span>
+                  </div>
                 </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://pvangoor.github.io/">
+                        <img src="graphics/organizers/pieter_van_goor.jpg" alt="Pieter van Goor">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://pvangoor.github.io/">
+                      Pieter van Goor
+                    </a>
+                    <br>
+                    <span>University of Twente</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://www.cis.upenn.edu/~xuyin/">
+                        <img src="graphics/organizers/yinshuang_xu.jpg" alt="Yinshuang Xu">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://www.cis.upenn.edu/~xuyin/">
+                      Yinshuang Xu
+                    </a>
+                  <br>
+                    <span>University of Pennsylvania</span>
+                  </div>
+                </div>
+              </div>            <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://rui1521.github.io/">
+                        <img src="graphics/organizers/ray_wang.jpeg" alt="Rui (Ray) Wang">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://rui1521.github.io/">
+                      Rui (Ray) Wang
+                    </a>
+                    <br>
+                    <span>Massachussets Institute of Technology</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
+            <div class="row justify-content-center">
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://vaghato.github.io/">
+                        <img src="graphics/organizers/Evangelos_Chatzipantazis.jpg" alt="Evangelos Chatzipantazis">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://vaghato.github.io/">
+                  Evangelos Chatzipantazis                    </a>
+                  <br>
+                    <span>University of Pennsylvania</span>
+                  </div>
                 </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://cablanc.github.io/">
+                        <img src="graphics/organizers/christine_allen-blanchette.png" alt="Christine Allen-Blanchette">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://cablanc.github.io/">
+                      Christine <br>Allen-Blanchette
+                    </a><br>
+                    <span>Princeton University</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://www.cis.upenn.edu/~kostas/">
+                        <img src="graphics/organizers/Kostas-Daniilidis-scaled.jpg" alt="Kostas Daniilidis">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://www.cis.upenn.edu/~kostas/">
+                      Kostas Daniilidis
+                    </a>
+                  <br>
+                    <span>University of Pennsylvania</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <div class="thumbnail">
+                  <div>
+                      <a href="https://www.kumarrobotics.org/">
+                        <img src="graphics/organizers/kumar-vijay.jpg" alt="Vijay Kumar">
+                      </a>
+                  </div>
+                  <div class="caption">
+                    <a href="https://www.kumarrobotics.org/">
+                      Vijay Kumar
+                    </a>
+                    <br>
+                    <span>University of Pennsylvania</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <div class="thumbnail">
-                <div>
-                  <img src="graphics/organisers/pic.jpg" alt="NAME">
-                  <ul class="social">
-                    <a href="website">
-                      <li class="icon"><i class="fa fa-home"></i></li>
-                    </a>
-                  </ul>
-                </div>
-                <div class="caption">
-                  NAME<br>
-                  <span>ORGANISATION</span>
-                </div>
-              </div>
-            </div>
+            For any questions or concerns, please feel free to reach out to <a href="mailto:jwelde@seas.upenn.edu">jwelde@seas.upenn.edu</a> or any of the organizers.
           </div>
         </div>
 
 
 
+
+        <div class="section" id="acknowledge">
+          <div class="title">
+            <span>Acknowledgements</span>
+          </div>
+          <div class="content">
+            The organizers gratefully acknowledge the financial support provided for the workshop by the IEEE RAS TC's on 
+            <strong>"Algorithms for Planning and Control of Robot Motion"</strong> and <strong>"Computer & Robot Vision"</strong>.
+            We also appreciate the endorsement of the workshop by the IEEE RAS TC's on <strong>"Multi-Robot Systems"</strong> and <strong>"Robot Learning"</strong>.
+            </div>
+        </div>
 
       </div>
     </div>
