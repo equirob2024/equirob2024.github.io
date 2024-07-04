@@ -290,21 +290,20 @@ tr:not(:last-child) {
     text-align: right;
 }
 
-#speakers div:not(:last-child).col-xs-6   {
-    /* background-color: red; */
-    /* margin-right: 0px; */
-}
-
-#speakers div.col-xs-6   {
-    /* width: 300px; */
-}
-
-#speakers .caption   {
-    /* background-color: blue;
-    width:300px; */
-    /* margin-right: 40px; */
+#equivariance_diagram {
+    /* opacity: .4; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150pt;
+    width: 100%;
+    margin-top: 10pt;
+    margin-bottom: 6pt;
 }
 
 body {
     padding-bottom: 20pt;
+}
+
+iframe  .container {
+    background-color: red;
 }
