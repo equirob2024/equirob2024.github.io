@@ -3,9 +3,9 @@ body {
     background-color: #faf1ec;
     color: #000000;
     line-height: 1.8em;
-    -moz-hyphens: auto;
+    /* -moz-hyphens: auto;
     -webkit-hyphens: auto;
-    hyphens: auto;
+    hyphens: auto; */
     margin: 0;
 }
 h2 {
@@ -123,7 +123,7 @@ h4.subtitle {
 .jumbotron {
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 4px 0px 4px;
+    padding: 40px 20px 0px 20px;
 }
 .jumbotron > .title {
     font-size: 18pt;
@@ -154,33 +154,23 @@ h4.subtitle {
     padding: 2px auto;
 }
 
-.thumbnail {
+
+
+.new_thumbnail {
     padding: 2px 2px 2px 2px;
     margin: 0px 0px 1px 0px;
 }
 
-.thumbnail img {
-    height: 100%;
-    border-radius: 50%;
-    /* object-fit: scale-down; */
-    width: 100%;
-    opacity: 1;
-    -webkit-transition: all 150ms;
-}
-
-.thumbnail img:hover {
+.new_thumbnail img:hover {
     opacity: .8;
     -webkit-transition: all 150ms;
 }
 
-
-@media (min-width: 576px) {
-    .thumbnail img {
-        object-fit: cover;
-    }
-    .thumbnail img.top-left {
-        object-position: 0px 0px;
-    }
+.new_thumbnail img {
+    max-width: 100%;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-transition: all 150ms;
 }
 
 .logo {
@@ -228,34 +218,7 @@ tr:not(:last-child) {
     background: rgba(230, 230, 230, 0.9);
 }
 
-/* .content ul {
-    background-color: red;
-} */
 
-.thumbnail ul {
-    display: block;
-    list-style-type: none;
-    margin: 0px;
-    padding: 5px;
-    text-align: center;
-}
-@media (hover: hover) {
-    .thumbnail div {
-        position: relative;
-        overflow: hidden;
-    }
-    .thumbnail ul {
-        background: rgba(200, 200, 200, 0.7);
-        position: absolute;
-        bottom: -100%;
-        left: 0px;
-        right: 0px;
-        transition: bottom 0.2s ease-in-out;
-    }
-    .thumbnail:hover ul {
-        bottom: 0px;
-    }
-}
 
 .icon {
     display: inline-block;
