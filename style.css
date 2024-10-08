@@ -266,3 +266,20 @@ body {
     padding-bottom: 20pt;
 }
 
+.abstract {
+    text-align: justify;
+    font-size: 12pt;
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.talk-title {
+    font-style: italic;
+    font-size: 13pt;
+}
+
+
+span.paper-authors {
+    font-style: italic;
+    display: block;
+}
