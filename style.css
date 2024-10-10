@@ -298,3 +298,8 @@ span.paper-authors {
     font-style: italic;
     display: block;
 }
+
+.speaker-title {
+    font-weight: 400;
+    line-height: 1.1;
+}
